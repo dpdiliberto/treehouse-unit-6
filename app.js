@@ -1,23 +1,29 @@
+// Require Express
 const express = require('express');
 
 const app = express();
 
+// Require projects data
 const { projects } = require('./data.json');
 
+// Set up view engine
 app.set('views', 'views');
 app.set('view engine', 'pug');
 
+// Set up static files
 app.use('/static', express.static('public'));
 
+// Set up index route
 app.get('/', (req, res) => {
-    console.log(projects);
     res.render('index', { projects });
 });
 
+// Set up 'about' route
 app.get('/about', (req, res) => {
     res.render('about');
 });
 
+// Set up projects routes
 app.get('/project/:id', (req, res) => {
     const { id } = req.params;
     console.log(`Viewing project with id ${id}`);
@@ -25,6 +31,7 @@ app.get('/project/:id', (req, res) => {
         const project = projects[id];
         res.render('project', { project });
     } else {
+        // Create a 404 error object if id does not exist
         const err = new Error();
         err.message = `The project you requested does not exist.`
         err.status = 404;
@@ -56,6 +63,6 @@ app.use((err, req, res, next) => {
     }
 });
 
-app.listen(3081, () => {
+app.listen(3000, () => {
     console.log('The application is running on localhost:3000!');
 });
