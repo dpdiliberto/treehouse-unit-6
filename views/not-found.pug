@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back to the home page
+  article.portfolio-intro
+    h1= `${err.status}`  
+    p= `${err.message}`
+  article.portfolio-intro
+    p= `${err.stack}` 

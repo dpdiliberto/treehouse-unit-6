@@ -1,0 +1,60 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Data Pagination and Filtering",
+            "description": "A student directory featuring pagination and search functionality",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "https://dpdiliberto.github.io/treehouse-unit-2/",
+            "github_link": "https://github.com/dpdiliberto/treehouse-unit-2",
+            "image_urls": 
+                [
+                    "/static/images/student-directory-1.png",
+                    "/static/images/student-directory-2.png",
+                    "/static/images/student-directory-3.png"
+                ]
+        }, 
+        {
+            "id": 1,
+            "project_name": "Interactive Form",
+            "description": "An interactive form that can be used to sign up for JavaScript conference events",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "https://dpdiliberto.github.io/treehouse-unit-3/",
+            "github_link": "https://github.com/dpdiliberto/treehouse-unit-3",
+            "image_urls": 
+                [
+                    "/static/images/form-1.png",
+                    "/static/images/form-2.png",
+                    "/static/images/form-3.png"
+                ]
+        },
+        {
+            "id": 2,
+            "project_name": "Phrase Hunter Word Game",
+            "description": "A phrase guessing game built with object oriented programming",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "https://dpdiliberto.github.io/treehouse-unit-4/",
+            "github_link": "https://github.com/dpdiliberto/treehouse-unit-4",
+            "image_urls": 
+                [
+                    "/static/images/game-1.png",
+                    "/static/images/game-2.png",
+                    "/static/images/game-3.png"
+                ]
+        },
+        {
+            "id": 3,
+            "project_name": "Employee Directory",
+            "description": "An employee directory built using Fetch to pull random data from a public API",
+            "technologies": ["Javascript", "Fetch API", "HTML", "CSS"],
+            "live_link": "https://dpdiliberto.github.io/treehouse-unit-5/",
+            "github_link": "https://github.com/dpdiliberto/treehouse-unit-5",
+            "image_urls": 
+                [
+                    "/static/images/employee-directory-1.png",
+                    "/static/images/employee-directory-2.png",
+                    "/static/images/employee-directory-3.png"
+                ]
+        } 
+    ]
+}
