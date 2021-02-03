@@ -2,6 +2,20 @@
     "projects": [
         {
             "id": 0,
+            "project_name": "Random quote generator",
+            "description": "An application that provides random quotes and random colored backgrounds",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "https://dpdiliberto.github.io/treehouse-unit-1/",
+            "github_link": "https://github.com/dpdiliberto/treehouse-unit-1",
+            "image_urls": 
+                [
+                    "/static/images/random-quote-1.png",
+                    "/static/images/random-quote-2.png",
+                    "/static/images/random-quote-3.png"
+                ]
+        }, 
+        {
+            "id": 1,
             "project_name": "Data Pagination and Filtering",
             "description": "A student directory featuring pagination and search functionality",
             "technologies": ["Javascript", "HTML", "CSS"],
@@ -15,7 +29,7 @@
                 ]
         }, 
         {
-            "id": 1,
+            "id": 2,
             "project_name": "Interactive Form",
             "description": "An interactive form that can be used to sign up for JavaScript conference events",
             "technologies": ["Javascript", "HTML", "CSS"],
@@ -29,7 +43,7 @@
                 ]
         },
         {
-            "id": 2,
+            "id": 3,
             "project_name": "Phrase Hunter Word Game",
             "description": "A phrase guessing game built with object oriented programming",
             "technologies": ["Javascript", "HTML", "CSS"],
@@ -43,7 +57,7 @@
                 ]
         },
         {
-            "id": 3,
+            "id": 4,
             "project_name": "Employee Directory",
             "description": "An employee directory built using Fetch to pull random data from a public API",
             "technologies": ["Javascript", "Fetch API", "HTML", "CSS"],
