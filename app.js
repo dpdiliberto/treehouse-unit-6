@@ -26,7 +26,6 @@ app.get('/about', (req, res) => {
 // Set up projects routes
 app.get('/project/:id', (req, res) => {
     const { id } = req.params;
-    console.log(`Viewing project with id ${id}`);
     if (projects[id]) {
         const project = projects[id];
         res.render('project', { project });
