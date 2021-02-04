@@ -262,6 +262,12 @@ nav a span {
   box-shadow: 0 0 0 1px rgb(10, 10, 10);
 }
 
+.cell:hover img {
+  width: 100%;
+  min-width: 100px;
+  border: 4px solid #Be9063;
+  box-shadow: 0 0 0 1px rgb(10, 10, 10);
+}
 
 /* 
   About and project pages styles 

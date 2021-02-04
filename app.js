@@ -50,16 +50,16 @@ app.use((req, res, next) => {
 // Global error handler
 app.use((err, req, res, next) => {
     if (err) {
-        console.log('Global error handler called', { err });
 
         if (err.status === 404) {
             res.status(404);
-            res.render('not-found', { err });
+            res.render('page-not-found', { err });
         } else {
             err.message = err.message || 'Oops! Something went wrong.';
             res.status(err.status || 500);
             res.render('error', { err });
         }
+        console.log('Global error handler called:', err.message);
     }
 });
 
